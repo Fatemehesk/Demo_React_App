@@ -1,0 +1,32 @@
+/* Style for accordion container */
+.accordion {
+    width: 80%;
+   margin-top: 15rem;
+  margin-bottom: 2rem;
+  }
+  
+  /* Style for accordion header */
+  .accordion-header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  /* Style for expanded accordion header */
+  .accordion-header.active {
+    background-color: #ddd;
+  }
+  
+  /* Style for accordion content */
+  .accordion-content {
+    padding: 10px;
+    border: 1px solid #ddd;
+   
+    /* display: none; */
+  }
+  
+  /* Style for expanded accordion content */
+  /* .accordion-content.active {
+    display: block;
+  } */

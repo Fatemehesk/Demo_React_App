@@ -1,0 +1,27 @@
+.Tab-Container {
+    max-width: 600px;
+    margin: 0 to;
+    h3 {
+        cursor: pointer;
+        padding: 10px;
+        margin: 0;
+        background-color: #eee;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 0 1.2rem;
+      }
+      
+      h3:hover {
+        background-color: #ddd;
+      }
+      
+      div {
+        margin-top: 20px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+  }
+  
+  

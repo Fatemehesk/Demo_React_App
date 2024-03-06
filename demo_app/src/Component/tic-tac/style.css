@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+.table{
+  width: 19rem;
+  
+  margin: 15rem 5rem;
+}
+.table-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+    border-left: 3px solid black;
+  border-top: 3px solid black;
+  }
+  .table_cell {
+    width: 33.3%; /* Adjusted width to accommodate the total border */
+    height: 6rem;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+  }

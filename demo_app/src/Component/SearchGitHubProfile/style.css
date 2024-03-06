@@ -1,0 +1,55 @@
+/* Add this CSS to your styles or create a new CSS file */
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 10% 0 0 10%;
+    max-height: 500px;
+    border: 1px solid rgb(179, 198, 215) ;
+  }
+  
+  .search-container input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .search-container button {
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .user-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgb(179, 198, 215);
+    border: 1px solid rgb(179, 198, 215) ;
+    border-radius: .5rem;
+padding: 2rem;
+  }
+  
+  .user-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .user-card div {
+    text-align: left;
+  }
+  
+  .user-card h2 {
+    margin-top: 0;
+  }
+  
+  .user-card p {
+    margin: 5px 0;
+  }
+  

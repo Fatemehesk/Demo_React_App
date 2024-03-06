@@ -1,0 +1,28 @@
+.container{
+    margin: auto;
+    .images-wrapper{
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        margin: 3rem auto;
+        justify-content: center;
+    }
+   
+    img{
+       width: 50rem; 
+       display: none;
+    }
+.circle{
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 0 5px;
+    color: #333;
+}
+.arrow{
+    cursor: pointer;
+    margin: 14rem 1rem 0 1rem;
+ 
+}
+}
+
+  

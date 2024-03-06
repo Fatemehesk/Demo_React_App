@@ -1,0 +1,40 @@
+.overview{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:.75rem;
+    margin-bottom: 1rem;
+    align-content: center;
+    .item-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 30%;
+        height: 300px;
+        border: 1px solid #d6cece;
+        padding: .75rem;
+        background-color: #f3e7e751;
+    border-radius: .5rem;
+       img{
+        max-width: 100%;
+        height:60%;
+        object-fit: cover;
+       }
+    }
+    .scroll-bar-wrapper{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height:10px;
+        background-color: aquamarine;
+    }
+    .scroll-bar{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: yellow;
+
+    }
+}
